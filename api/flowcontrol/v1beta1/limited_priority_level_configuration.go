@@ -6,8 +6,8 @@ package v1beta1
 // Editing this file might prove futile when you re-run the swagger generate command
 
 // LimitedPriorityLevelConfiguration LimitedPriorityLevelConfiguration specifies how to handle requests that are subject to limits. It addresses two issues:
-//  * How are requests for this priority level limited?
-//  * What should be done with requests that exceed the limit?
+//   - How are requests for this priority level limited?
+//   - What should be done with requests that exceed the limit?
 //
 // swagger:model LimitedPriorityLevelConfiguration
 type LimitedPriorityLevelConfiguration struct {
